@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducton</title>
+
+    <style>
+        table , td , th{
+            border: 2px solid black;
+            border-color: white;
+            border-collapse: collapse;
+            background-color: rgb(46, 187, 159);
+            text-align: center;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul style="list-style-type:none">
+            <li>
+                <a href="#">home</a>
+            </li>
+            <li>
+                <a href="#">about me</a>
+            </li>
+            <li>
+                <a href="#">contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h1 align = "center">About Me</h1>
+            <p>I am Abishek Adhav from Shirdi,Maharastra. I have keen intrested in devlopment and started learning about software devlopment in accioJob and learn the diffrent types of software devlopment tech stack through which i implements my knowlegde and skills in the self learning projects that improve my understanding ability towards the web devlopment and how  things are started working behind the screen.</p>
+        </section>
+    
+        <section>
+            <h1 align = "center">Contact Me</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" required><br>
+                <label for="message">Message:</label>
+                <textarea name="message" id="" cols="30" rows="2"></textarea><br>
+                <label for="tel">Phone Number:</label>
+                <input type="number" name="tel" required><br>
+                <label for="date">Date of Appointment:</label>
+                <input type="date" name="date" required><br>
+                
+                <div>
+                    <label for="contact">Contact:</label>
+                <input type="radio" name="contact" id="whatapp">
+                <label for="whatapp">Whatapp</label>
+                <input type="radio" name="contact" id="Call">
+                <label for="Call">Call</label><br>
+                </div>
+
+                <div>
+                    <label for="slots">Time Slot:</label>
+                <input type="checkbox" name="slots" id="first">
+                <label for="first">11 AM</label>
+                <input type="checkbox" name="slots" id="second">
+                <label for="second">1 PM</label>
+                <input type="checkbox" name="slots" id="third">
+                <label for="third">4 PM</label>
+                <br>
+                </div>
+                <input type="submit" name="Submit">
+                <input type="reset" name="Reset">
+            </form>
+        </section>
+        <section>
+            <h1 align = "center">Projects</h1>
+            <table>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Crawler</td>
+                    <td>It crawl the webpages thorughout the internet</td>
+                    <td><a href="https://github.com/AbhiAdhav007/WebCrawler" target="_blank">https://github.com/AbhiAdhav007/WebCrawler</a></td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Search Engine</td>
+                    <td>It given the results according to keyword that user enter</td>
+                    <td><a href="https://github.com/AbhiAdhav007/SnakeGame" target="_blank">https://github.com/AbhiAdhav007/SnakeGame</a></td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Snake Game</td>
+                    <td>Player control the thin creature which increase its size by eating food and it destroy when touches itself or border</td>
+                    <td><a href="https://github.com/AbhiAdhav007/SnakeGame" target="_blank">https://github.com/AbhiAdhav007/SnakeGame</a></td>
+                </tr>
+            </table>
+        </section>
+    
+    </main>
+    
+    <footer>
+        <h2 align = "center">You can also connect with me on:</h2>
+
+        <img src="../Inventory/insta.png" alt="logo" width="15px" height="15">
+        <a href="#" target="_blank">Instagram</a>
+        <img src="../Inventory/facebook-logo-481.png" alt="logo" width="15px" height="15">
+        <a href="#" target="_blank">Facebook</a>
+        <img src="../Inventory/logo-twitter-png-5860.png" alt="logo" width="15" height="15">
+        <a href="#" target="_blank">Twitter</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+</head>
+<body>
+
+    <h1 align = "center">Genral Details</h1>
+
+    <form>
+        <div>
+            <label for="name"></label>Full Name:<br>
+            <input type="text" name="name" placeholder="enter your full name">
+        </div>
+        <br>
+        <div>
+            <label for="username">Username:</label><br>
+            <input type="text" name="username"   placeholder="username">
+        </div>
+
+        <br>
+        <div>
+            <label for="passward">Passward:</label><br>
+            <input type="password" name="passward" placeholder="Pass@123">
+        </div>
+        <br>
+        <div>
+            <label for="number">Number:</label><br>
+            <input type="number" name="number" placeholder="mobile number">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email Address:</label><br>
+            <input type="email" name="email" placeholder="enter your email id">
+        </div>
+        <br>
+        <div>
+            <label for="DOB">Date of Birth</label><br>
+            <input type="date" placeholder="enter your birth date" name="DOB">
+        </div><br>
+
+        <div>
+            <label for="gender">Gender</label><br>
+            male <input type="radio" name="gender"><br>
+            female <input type="radio" name="gender">
+        </div><br>
+
+        <div>
+            <label for="resume">Resume</label>
+            <input type="file" name="resume" accept="application/pdf">
+        </div><br>
+        <div>
+            <label for="subject">Subject:</label>
+            <select name="subject" id="sub">
+                <option value="Marathi">Marathi</option>
+                <option value="Hindi">Hindi</option>
+                <option value="English">English</option>
+                <option value="Sanskrit">Sanskrit</option>
+            </select>
+        </div><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+        <button type=”submit”>Submit</button>
+        
+    </form>
+    
+</body>
+</html>
